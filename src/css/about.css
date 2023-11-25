@@ -64,7 +64,7 @@
     .about-us {
         flex-direction: row;
         gap: 50px;
-        padding: 75px 50px;
+        padding: 75px 0px;
 
     }
 
@@ -76,7 +76,7 @@
 
 @media screen and (min-width:1440px) {
     .about-us {
-        padding: 75px 100px 75px 100px;
+        padding: 75px 0px;
     }
 
     .wrapper-text {
@@ -137,9 +137,9 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
         background-image: url('../img/desktop-1440/desktop1440-aboutus-background.png');
         background-size: 545px 483px;
     }
-        @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
+        @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+        screen and (min-resolution: 2dppx) and (min-width: 768px),
+        screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
             .about-us-bg-image {
                 background-image: url('../img/desktop-1440/desktop1440-aboutus-background@2x.png');
             }
