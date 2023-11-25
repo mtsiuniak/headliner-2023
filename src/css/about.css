@@ -7,13 +7,13 @@
     gap: 50px;
     justify-content: center;
     align-items: center;
+    
 }
 
 .title-abaut-us {
 
     color: #FCF9F9;
     margin-bottom: 40px;
-
     font-size: 32px;
     font-weight: 500;
     line-height: 1.37;
@@ -22,14 +22,16 @@
 
 .text-about-us {
     color: rgba(252, 249, 249, 0.352);
-
+    margin-bottom: 20px;
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.04em;
-    margin-bottom: 20px;
+    
 }
-
+.text-about-us-two{
+    margin-bottom: 0px;
+}
 .wrapper-text {
     display: block;
     max-width: 335px;
@@ -69,6 +71,7 @@
     .wrapper-text {
         min-width: 436px;
     }
+        
 }
 
 @media screen and (min-width:1440px) {
