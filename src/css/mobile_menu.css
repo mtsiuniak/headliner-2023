@@ -20,7 +20,7 @@
 }
 
 .mobile-menu.is-open {
-  transform: translateX(-100%);
+  transform: translateX(0%);
 }
 
 @media screen and (min-resolution: 192dpi),
