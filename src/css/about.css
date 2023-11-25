@@ -102,6 +102,7 @@
     .about-us-bg-image {
         background-image: url('../img/tablet/tablet-aboutus-background.png');
         background-size: 369px 484px;
+       
     }
 
     @media (min-device-pixel-ratio: 2),
