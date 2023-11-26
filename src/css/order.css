@@ -1,13 +1,13 @@
 /* SECTION YOUR ORDERS MOBILE STYLES */
 
 .order-section {
-  height: 1266px;
+  height: 1346px;
   background-image: url(../img/mobile/mobile-background-foto.jpg);
   background-size: 375px 550px;
   background-repeat: no-repeat;
   background-position: top;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 375px),
@@ -32,19 +32,14 @@
   line-height: 1.375;
   letter-spacing: -0.03em;
   width: 335px;
-  margin-top: 630px;
+  margin-top: 590px;
 }
 
-.order-title-span {
-  color: #ecd979;
-}
-
-.order-form-wrapper {
+.order-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
 }
 
 .order-form-field {
@@ -58,6 +53,7 @@
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: #1c2225;
+  margin-bottom: 20px;
 }
 
 .order-form-comments {
@@ -73,6 +69,7 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: #1c2225;
   resize: none;
+  margin-bottom: 40px;
 }
 
 .order-form-btn {
@@ -90,6 +87,26 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
 }
 
+.order-form-field:hover,
+.order-form-field:focus {
+  color: #fcf9f9;
+}
+
+.order-form-field:hover,
+.order-form-field:focus {
+  border: 1px solid #fcf9f9;
+}
+
+.order-form-field:hover,
+.order-form-field:focus {
+  background-color: #1c2225;
+}
+
+.order-form-btn:hover,
+.order-form-btn:focus {
+  border: 1px solid #ecd979;
+}
+
 .order-form-btn-icon {
   fill: #ecd979;
 }
@@ -100,22 +117,37 @@
 
 @media screen and (min-width: 768px) {
   .order-section {
-    height: 2216px;
+    height: 2316px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .order-background-girl {
     background-image: url(../img/tablet/tablet-background-girl.jpg);
-    background-size: 768px 776px;
-    background-position: top;
-    margin-bottom: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 768px;
   }
 
   @media screen and (min-resolution: 192dpi) and (min-width: 768px),
     screen and (min-resolution: 2dppx) and (min-width: 768px),
     screen and (min-device-pixel-retio: 2) and (min-width: 768px) {
-    .order-section {
+    .order-background-girl {
       background-image: url(../img/tablet/tablet-background-girl@2x.jpg);
     }
   }
 
+  .padding-background-girl {
+    padding: 388px 0px;
+  }
+
   .order-form-box {
+    align-items: flex-start;
+  }
+
+  .order-form {
     justify-content: flex-start;
     align-items: flex-start;
   }
@@ -125,7 +157,7 @@
     line-height: 1.318;
     letter-spacing: -0.03em;
     width: 542px;
-    margin-top: 876px;
+    margin-top: 100px;
   }
 
   .order-form-field {
@@ -145,7 +177,7 @@
     padding: 14px 39px;
     color: var(--white, #fcf9f9);
     font-size: 16px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
   }
 
   .order-form-image-wrapper {
@@ -154,8 +186,8 @@
 
   .section-background {
     background-image: url(../img/tablet/tablet-yourorder-background.png);
-    background-size: 545px 484px;
-    background-position: -100% 100%;
+    background-size: 323px 484px;
+    background-position: left bottom;
   }
 
   @media screen and (min-resolution: 192dpi) and (min-width: 768px),
@@ -173,17 +205,24 @@
 
 @media screen and (min-width: 1280px) {
   .order-section {
-    height: 1566px;
+    height: 1716px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .order-background-girl {
     background-image: url(../img/desktop-1280/desktop-background-girl.jpg);
-    background-size: 1282px 776px;
-    background-position: top;
-    margin-bottom: 75px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 1282px;
   }
 
   @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
     screen and (min-resolution: 2dppx) and (min-width: 1280px),
     screen and (min-device-pixel-retio: 2) and (min-width: 1280px) {
-    .order-section {
+    .order-background-girl {
       background-image: url(../img/desktop-1280/desktop-background-girl@2x.jpg);
     }
   }
@@ -193,6 +232,10 @@
     flex-direction: row-reverse;
     justify-content: center;
     gap: 50px;
+  }
+
+  .order-title {
+    margin-top: 150px;
   }
 
   .order-form-box {
@@ -205,13 +248,13 @@
 
   .order-form-image-wrapper {
     margin-left: 0;
-    margin-top: 876px;
+    margin-top: 150px;
   }
 
   .section-background {
     background-image: url(../img/desktop-1280/desktop-yourorder-background.png);
-    background-size: 545px 484px;
-    background-position: -35% 95%;
+    background-size: 289px 484px;
+    background-position: left bottom;
   }
 
   @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
@@ -228,29 +271,37 @@
 
 @media screen and (min-width: 1440px) {
   .order-section {
-    height: 1566px;
+    height: 1785.5px;
+    padding-top: 144.5px;
+    padding-bottom: 75px;
+  }
+
+  .order-background-girl {
     background-image: url(../img/desktop-1440/desktop1440-background-girl.jpg);
-    background-position: top;
-    background-size: 1440px 776px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 1440px;
   }
 
   @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
     screen and (min-resolution: 2dppx) and (min-width: 1440px),
     screen and (min-device-pixel-retio: 2) and (min-width: 1440px) {
-    .order-section {
+    .order-background-girl {
       background-image: url(../img/desktop-1440/desktop1440-background-girl@2x.jpg);
     }
   }
 
   .section-background {
     background-image: url(../img/desktop-1440/desktop1440-yourorder-background.png);
-    background-size: 545px 484px;
-    background-position: -20% 95%;
+    background-size: 325px 484px;
+    background-position: left bottom;
   }
 
-  @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
-    screen and (min-resolution: 2dppx) and (min-width: 1280px),
-    screen and (min-device-pixel-retio: 2) and (min-width: 1280px) {
+  @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+    screen and (min-resolution: 2dppx) and (min-width: 1440px),
+    screen and (min-device-pixel-retio: 2) and (min-width: 1440px) {
     .section-background {
       background-image: url(../img/desktop-1440/desktop1440-yourorder-background@2x.png);
     }
