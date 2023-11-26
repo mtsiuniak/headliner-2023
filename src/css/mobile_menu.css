@@ -4,6 +4,7 @@
   right: 0;
   width: 274px;
   height: 100%;
+
   background-color: #ecd979;
   background-image: url('../img/mobile/mobile-menu-background.png');
   background-repeat: no-repeat;
@@ -11,9 +12,7 @@
   background-position: bottom;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-end;
-  padding: 20px 20px;
+  padding: 20px 20px 251px 20px;
   z-index: 9999999;
   transform: translateX(100%);
   transition: translate 250ms linear;
@@ -33,6 +32,8 @@
 
 .button-close {
   position: absolute;
+  top: 20px;
+  right: 20px;
   background-color: transparent;
   border: none;
   padding: 0;
@@ -62,11 +63,15 @@
   text-transform: uppercase;
 }
 
+.main-nav-box {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .main-nav-list {
-  position: absolute;
-  right: 20px;
-  bottom: 50%;
-  margin: 0 0 32px 0;
+  margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -84,6 +89,7 @@
 @media screen and (min-width: 768px) {
   .mobile-menu {
     width: 380px;
+    padding: 20px 32px 364px;
     background-image: url('../img/tablet/tablet-menu-background.png');
   }
 
@@ -93,6 +99,10 @@
     .mobile-menu {
       background-image: url('../img/tablet/tablet-menu-background@2x.png');
     }
+  }
+
+  .button-close {
+    right: 32px;
   }
 
   .close-img {
