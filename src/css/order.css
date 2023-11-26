@@ -54,6 +54,7 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: #1c2225;
   margin-bottom: 20px;
+  transition: border 250ms linear, color 250ms linear;
 }
 
 .order-form-comments {
@@ -85,6 +86,7 @@
   background-color: #1c2225;
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
+  transition: border 250px linear;
 }
 
 .order-form-field:hover,
