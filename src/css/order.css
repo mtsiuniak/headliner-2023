@@ -1,7 +1,6 @@
 /* SECTION YOUR ORDERS MOBILE STYLES */
 
 .order-section {
-  height: 1346px;
   background-image: url(../img/mobile/mobile-background-foto.jpg);
   background-size: 375px 550px;
   background-repeat: no-repeat;
@@ -120,9 +119,8 @@
 
 @media screen and (min-width: 768px) {
   .order-section {
-    height: 2316px;
-    padding-top: 50px;
-    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 80px;
   }
 
   .order-background-girl {
@@ -208,8 +206,7 @@
 
 @media screen and (min-width: 1280px) {
   .order-section {
-    height: 1716px;
-    padding-top: 75px;
+    padding-top: 0px;
     padding-bottom: 0px;
   }
 
@@ -254,6 +251,10 @@
     margin-top: 150px;
   }
 
+  .order-form-btn {
+    margin-bottom: 0px;
+  }
+
   .section-background {
     background-image: url(../img/desktop-1280/desktop-yourorder-background.png);
     background-size: 289px 484px;
@@ -274,8 +275,7 @@
 
 @media screen and (min-width: 1440px) {
   .order-section {
-    height: 1785.5px;
-    padding-top: 144.5px;
+    padding-top: 0px;
     padding-bottom: 0px;
   }
 
