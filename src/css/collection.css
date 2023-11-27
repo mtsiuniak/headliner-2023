@@ -1,6 +1,6 @@
 .our-colection {
     padding-top: 18px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
     background-image: url(../img/mobile/mobile-ourcollection-background.png);
     background-repeat: no-repeat;
     background-position: 0 11%;
@@ -82,10 +82,10 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 768px) {
 
     .our-colection {
         padding-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 100px;
         background-image: url(../img/tablet/tablet-ourcollection-background.png);
         background-repeat: no-repeat;
-        background-position: 0 18%;
+        background-position: 0 17%;
         background-size: 116px 300px;
     }
 
@@ -130,8 +130,8 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 768px) {
 
     .our-colection {
         padding-top: 70px;
-        padding-bottom: 75px;
-        background-position: 0 28%;
+        padding-bottom: 150px;
+        background-position: 0 25%;
         background-size: 169px 300px;
         background-image: url('../img/desktop-1280/desktop-ourcollection-background.png');
     }
