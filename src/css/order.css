@@ -81,12 +81,12 @@
   font-size: 14px;
   font-weight: 600;
   line-height: normal;
-  letter-spacing: -0.04px;
+  letter-spacing: -0.04em;
   text-transform: uppercase;
   background-color: #1c2225;
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
-  transition: border 250px linear;
+  transition: border 250ms linear;
 }
 
 .order-form-field:hover,
