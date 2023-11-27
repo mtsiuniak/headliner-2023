@@ -15,7 +15,7 @@
   padding: 20px 20px 251px 20px;
   z-index: 9999999;
   transform: translateX(100%);
-  transition: translate 250ms linear;
+  transition: transform 250ms linear;
 }
 
 .mobile-menu.is-open {
@@ -34,6 +34,8 @@
   position: absolute;
   top: 20px;
   right: 20px;
+  width: 36px;
+  height: 36px;
   background-color: transparent;
   border: none;
   padding: 0;
