@@ -1,12 +1,11 @@
 /* SECTION YOUR ORDERS MOBILE STYLES */
 
 .order-section {
-  height: 1346px;
   background-image: url(../img/mobile/mobile-background-foto.jpg);
   background-size: 375px 550px;
   background-repeat: no-repeat;
   background-position: top;
-  padding-top: 40px;
+  padding-top: 630px;
   padding-bottom: 40px;
 }
 
@@ -32,7 +31,6 @@
   line-height: 1.375;
   letter-spacing: -0.03em;
   width: 335px;
-  margin-top: 590px;
 }
 
 .order-form {
@@ -111,6 +109,7 @@
 
 .order-form-btn-icon {
   fill: #ecd979;
+  transform: rotate(-30deg);
 }
 
 /* SECTION YOUR ORDERS MOBILE STYLES */
@@ -119,8 +118,8 @@
 
 @media screen and (min-width: 768px) {
   .order-section {
-    height: 2316px;
-    padding-top: 50px;
+    padding-top: 0px;
+    padding-bottom: 80px;
   }
 
   .order-background-girl {
@@ -206,8 +205,8 @@
 
 @media screen and (min-width: 1280px) {
   .order-section {
-    height: 1716px;
-    padding-top: 75px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .order-background-girl {
@@ -236,6 +235,7 @@
 
   .order-title {
     margin-top: 150px;
+    width: 662px;
   }
 
   .order-form-box {
@@ -249,6 +249,10 @@
   .order-form-image-wrapper {
     margin-left: 0;
     margin-top: 150px;
+  }
+
+  .order-form-btn {
+    margin-bottom: 0px;
   }
 
   .section-background {
@@ -271,8 +275,16 @@
 
 @media screen and (min-width: 1440px) {
   .order-section {
-    height: 1785.5px;
-    padding-top: 144.5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .order-section-wrapper {
+    justify-content: flex-end;
+  }
+
+  .order-title {
+    width: 666px;
   }
 
   .order-background-girl {
