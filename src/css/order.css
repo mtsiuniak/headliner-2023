@@ -5,7 +5,7 @@
   background-size: 375px 550px;
   background-repeat: no-repeat;
   background-position: top;
-  padding-top: 0px;
+  padding-top: 630px;
   padding-bottom: 40px;
 }
 
@@ -31,7 +31,6 @@
   line-height: 1.375;
   letter-spacing: -0.03em;
   width: 335px;
-  margin-top: 590px;
 }
 
 .order-form {
@@ -236,6 +235,7 @@
 
   .order-title {
     margin-top: 150px;
+    width: 662px;
   }
 
   .order-form-box {
@@ -277,6 +277,14 @@
   .order-section {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .order-section-wrapper {
+    justify-content: flex-end;
+  }
+
+  .order-title {
+    width: 666px;
   }
 
   .order-background-girl {
