@@ -111,6 +111,7 @@
 
 .order-form-btn-icon {
   fill: #ecd979;
+  transform: rotate(-30deg);
 }
 
 /* SECTION YOUR ORDERS MOBILE STYLES */
@@ -121,6 +122,7 @@
   .order-section {
     height: 2316px;
     padding-top: 50px;
+    padding-bottom: 0px;
   }
 
   .order-background-girl {
@@ -208,6 +210,7 @@
   .order-section {
     height: 1716px;
     padding-top: 75px;
+    padding-bottom: 0px;
   }
 
   .order-background-girl {
@@ -273,6 +276,7 @@
   .order-section {
     height: 1785.5px;
     padding-top: 144.5px;
+    padding-bottom: 0px;
   }
 
   .order-background-girl {
