@@ -72,6 +72,8 @@
 }
 
 .order-form-btn {
+  display: flex;
+  gap: 10px;
   width: 145px;
   height: 49px;
   padding: 14px 36px;
@@ -110,6 +112,7 @@
 .order-form-btn-icon {
   fill: #ecd979;
   transform: rotate(-30deg);
+  margin-top: 5px;
 }
 
 /* SECTION YOUR ORDERS MOBILE STYLES */
