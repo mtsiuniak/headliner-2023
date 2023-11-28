@@ -1,7 +1,10 @@
+.header-page {
+    padding-top: 20px;
+    padding-bottom: 24px;
+}
+
 .header-container {
     display: flex;
-    padding-top: 20px;
-    padding-bottom: 4px;
     justify-content: space-between;
     align-items: center;
 }
@@ -100,6 +103,10 @@
 
 @media screen and (min-width: 768px) {
 
+    .header-page {
+        padding-bottom: 44px;
+    }
+
     .header-right-part {
         gap: 20px;
     }
@@ -111,6 +118,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+
+    .header-page {
+        padding-bottom: 4px;
+        }
 
     .mobile-open-btn {
         display: none;

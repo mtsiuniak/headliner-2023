@@ -1,7 +1,5 @@
 /*section-abaut-up*/
 .about-us {
-    padding: 40px 20px 60px 20px;
-    font-family: Manrope;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -9,7 +7,10 @@
     align-items: center;
     
 }
-
+.about-us-bg-image {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
 .title-abaut-us {
 
     color: #FCF9F9;
@@ -38,8 +39,10 @@
 }
 
 @media screen and (min-width:768px) {
+    .about-us-bg-image {
+        padding-top: 50px;
+    }
     .about-us {
-        padding: 50px 32px;
         gap: 40px;
         margin-bottom: 0px;
 
@@ -61,11 +64,12 @@
 }
 
 @media screen and (min-width:1280px) {
+    .about-us-bg-image {
+            padding-top: 75px;
+        }
     .about-us {
         flex-direction: row;
         gap: 50px;
-        padding: 75px 0px;
-
     }
 
     .wrapper-text {
@@ -75,9 +79,9 @@
 }
 
 @media screen and (min-width:1440px) {
-    .about-us {
-        padding: 75px 0px;
-    }
+    .about-us-bg-image {
+            padding-top: 75px;
+        }
 
     .wrapper-text {
         min-width: 481px;
