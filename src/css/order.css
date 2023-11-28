@@ -119,6 +119,11 @@
 
 /* SECTION YOUR ORDERS TABLET STYLES */
 
+@media screen and (max-width: 767px) {
+  .order-form-image-wrapper {
+    display: none;
+  }
+}
 @media screen and (min-width: 768px) {
   .order-section {
     padding-top: 0px;
@@ -270,6 +275,16 @@
     .section-background {
       background-image: url(../img/desktop-1280/desktop-yourorder-background@2x.png);
     }
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .order-form-image-wrapper {
+    position: relative;
+    left: -34px;
+  }
+
+  .order-section-wrapper {
+    gap: 16px;
   }
 }
 /* SECTION YOUR ORDERS DESKTOP-1280 STYLES */
