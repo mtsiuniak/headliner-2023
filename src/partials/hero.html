@@ -1,39 +1,44 @@
 <section class="hero-section">
     <div class="container hero-container">
-        <div class="hero-main">
-            <div class="hero-photo">
-                <img class="hero-img" srcset="
-              ./img/desktop-1280/desktop-hero-girl@2x.jpg          784w,
-              ./img/tablet/tablet-hero-girl@2x.jpg                 826w,
-              ./img/mobile/mobile-hero@2x.jpg                      670w,
-              ./img/desktop-1280/desktop-hero-girl.jpg             392w,
-              ./img/tablet/tablet-hero-girl.jpg                    413w,
-              ./img/mobile/mobile-hero.jpg                         335w
-            " sizes="
-                  (max-width: 767px) 335px,
-                  (min-width: 768px) 413px, 
-                  (min-width: 1280px) 392px" src="./img/desktop-1280/desktop-hero-girl.jpg" alt="Фото дівчини">
-            </div>
-            <div class="hero-goal">
-                <h1 class="hero-title">Reviving the traditional <span class="accent-color">Ukrainian</span> artistry in
-                    every stitch.</h1>
-                <a class="hero-btn" href="#customer-order">
-                    Order
-                    <svg class="hero-arrow" width="26" height="10">
+        <div class="left-part">
+            <div class="title-and-order-btn">
+
+                <h1 class="main-title">Reviving the traditional <span class="accent-color">Ukrainian</span> artistry in
+                    every
+                    stitch.
+                </h1>
+
+                <div class="order-link-btn">
+                    <a href="#customer-order" class="order-btn">Order</a>
+                    <svg class="order-svg" width="26" height="10">
                         <use href="./img/icons.svg#icon-arrow"></use>
                     </svg>
-                </a>
-            </div>
-        </div>
-        <div class="hero-handmade">
-            <div class="hero-hand-cont">
-                <img class="hero-sun" src="./img/hero/hero-sun.png" alt="Сонце">
-                <p class="hero-text">all embroidery is made by hand</p>
-            </div>
-            <div class="hero-elipse">
-                <img src="./img/hero/hero-elips.png" alt="Еліпс">
-            </div>
+                </div>
 
+            </div>
+            <picture>
+                <source media="(min-width:1440px)" srcset="./img/desktop-1440/desktop1440-hero-girl.jpg 1x,
+                                ./img/desktop-1440/desktop1440-hero-girl@2x 2x" type="image/jpg" />
+                <source media="(min-width:1280px)" srcset="./img/desktop-1280/desktop-hero-girl.jpg 1x,
+                                 ./img/desktop-1280/desktop-hero-girl@2x.jpg 2x" type="image/jpg" />
+                <source media="(min-width:768px)" srcset="./img/tablet/tablet-hero-girl.jpg 1x,
+                                 ./img/tablet/tablet-hero-girl@2x.jpg 2x" type="image/jpg" />
+                <source media="(max-width:767px)" srcset="./img/mobile/mobile-hero.jpg 1x,
+                                ./img/mobile/mobile-hero@2x.jpg 2x" type="image/jpg" />
+                <img class="hero-img" src="./img/desktop-1440/desktop1440-hero-girl.jpg" alt="girl from hero section"
+                    loading="lazy">
+            </picture>
         </div>
+
+        <div class="right-part">
+            <div class="sunny-block">
+                <img class="sunny-picture" srcset="./img/hero/hero-sun@2x.png 2x" src="./img/hero/hero-sun.png"
+                    alt="sun-sign">
+                <p class="sunny-desc">all embroidery is made by hand</p>
+            </div>
+            <img class="oval-picture" srcset="./img/hero/hero-elips@2x.png 2x" src="./img/hero/hero-elips.png"
+                alt="oval">
+        </div>
+
     </div>
 </section>
